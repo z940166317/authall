@@ -1,0 +1,20 @@
+{
+    "name": "xlwl/authall",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Aaron z",
+            "email": "940166317@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "description": "all auth2.0 in",
+    "autoload": {
+        "psr-4": {
+            "authall\\": "src/"
+        },
+        "files": ["src/common.php"]
+    }
+}
